@@ -26,6 +26,7 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     text-align: center;
     font-size: 18px;
+    
 }
 
 /* header */
@@ -62,13 +63,14 @@ body {
 #gnb {
     width: 100%;
     height: 80px;
-    box-shadow: 2px 2px 4px #999;
+    background: #fff;
+    box-shadow: 2px 2px 4px #333;
     /* outline: 1px solid green; */
 }
 #gnb ul li{
     display: inline-block;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 #gnb ul li a {
     line-height: 80px;
@@ -76,9 +78,10 @@ body {
 }
 #gnb ul li a:hover {
     /* font-weight: bold; */
-    opacity: 90%;
     border-bottom: 4px solid #9FB6D4;
 }
+
+/* about */
 #about {
     background: #fff2cc ;
     width: 100%;
@@ -110,6 +113,8 @@ body {
     margin-top: 50px;
     padding-left: 100px;
 }
+
+/* portfolio */
 #portfolio {
     width: 100%;
     height: 1055px;
@@ -127,6 +132,111 @@ body {
 }
 
 #portfolio_gnb ul li a:hover {
-    opacity: 90%;
     border-bottom: 4px solid #9FB6D4;
+}
+
+#portfolio .list .col_4:nth-child(2n-1) {
+    background: #fff2cc;
+}
+
+#portfolio .list .col_4 {
+    position: relative;
+    width: 380px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+#portfolio li .caption {
+    /* outline: 1px solid red; */
+    position: absolute;
+    width: 380px;
+    height: 300px;
+    background: rgba(58, 58, 58, 0.5);
+    top: 0;
+    color: #fff;    
+    text-align: center;
+    line-height: 300px;
+    /* padding-top: 150px; */
+    box-sizing: border-box;
+    transition: 0.5s;
+    opacity: 0;
+}
+#portfolio li:hover .caption {
+    top: 0; 
+    /* transform: translateY(-200px); */
+    opacity: 1;
+}
+
+#contact {
+    width: 100%;
+    height: 600px;
+    background: #fff2cc;
+}
+#contact .container {
+    position: relative;
+}
+
+#contact form {
+    padding-top: -50px;
+    /* outline: 1px solid green; */
+    text-align: right;
+}
+
+#contact .col_4 li input {
+    width: 380px;
+    height: 25px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 0.5px solid #333;
+}
+
+#contact .col_4 li textarea {
+    width: 380px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 0.5px solid #333;
+}
+
+#contact #submit {
+    /* outline: 1px solid green; */
+    width: 100px;
+    height: 25px;
+    border-radius: 10px;
+    background: #fff;
+    border: 0.5px solid #333;
+}
+
+#contact .container > .row {
+    padding-top: 50px;
+}
+
+#sub_contact {
+    width: 100%;
+    height: 140px;
+    background: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#sub_contact .col_4 p,
+#sub_contact .col_4 p a{
+    /* outline: 1px solid red;  */
+    color: #fff;
+    display: block;
+}
+#sub_contact .col_4 p {
+    padding-top: 50px;
+}
+footer {
+    width: 100%;
+    height: 80px;    
+    background: #333;
+    border-top: 1px solid #707070; 
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .container p{    
+    color: #fff;
+    line-height: 80px;
 }
