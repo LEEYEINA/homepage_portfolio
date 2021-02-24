@@ -38,3 +38,29 @@ $(function(){
     })
   
   });
+
+  $(function(){
+    // all
+    $('#pf-all').on('click', function(){
+      $('#portfolio_main #main_header p')
+      .text('ALL');
+    })
+
+    // web
+    $('#pf-web').on('click', function(){
+      $('#portfolio_main #main_header p')
+      .text('WEB');
+    })
+
+    // mobile
+    $('#pf-mobile').on('click', function(){
+      $('#portfolio_main #main_header p')
+      .text('MOBILE');
+    })
+
+     // graphic
+     $('#pf-graphic').on('click', function(){
+      $('#portfolio_main #main_header p')
+      .text('GRAPHIC');
+    })
+  });
