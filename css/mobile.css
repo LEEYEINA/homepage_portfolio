@@ -37,6 +37,10 @@
   padding-bottom: 100px;
 }
 
+#about .skill img {
+  width: 100%;
+}
+
 #portfolio {
   width: 100%;
   height: 100%;
