@@ -17,16 +17,6 @@
 #the_born h3 {
     text-decoration: underline;  
 }
-#the_born #contents01 .container .col_8 img,
-#the_born #contents01 .container .col_4 img{
-    /* outline: 1px solid green; */
-    width: 100%;
-}
-
-#the_born #contents01 .container .col_8 img {
-    padding-top: 116px;
-    padding-bottom: 116px;
-}
 
 #the_born #contents01 h2 {
     text-align: left;
