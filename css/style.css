@@ -188,6 +188,7 @@ body {
     border-radius: 10px;
     margin-bottom: 5px;
     border: 0.5px solid #333;
+    padding: 15px;
 }
 
 #contact .col_4 li textarea {
@@ -195,15 +196,17 @@ body {
     border-radius: 10px;
     margin-top: 5px;
     border: 0.5px solid #333;
+    padding: 5px;
 }
 
 #contact #submit {
     /* outline: 1px solid green; */
     width: 100px;
-    height: 25px;
+    height: 30px;
     border-radius: 10px;
     background: #fff;
     border: 0.5px solid #333;
+    padding: 3px;
 }
 
 #contact .container > .row {

@@ -98,13 +98,65 @@ footer {
   background: #333; 
 }
 
+/* 더 본 코리아 */
+#the_born .container img {
+  margin: 0 auto;
+}
+#the_born h3 {
+  outline: 1px solid red;
+  font-size: 0.9em;
+}
 
-#the_born #contents01 .container {
+#the_born p {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 0.9em;
+}
+
+#the_born #contents01 {
   width: 100%;
+  height: 100%;
   background: #fff;
+  padding-bottom: 80px;
+  /* outline: 1px solid red; */
+}
+
+#the_born #contents01 .container img {
+  width: 90%;
+}
+
+#the_born #contents02 {
+  width: 100%;
+  height: 100%;
+  background: #fff2cc;
+  padding-bottom: 80px;
+}
+
+#the_born #contents02 .container h3 {
+  text-align: center;
 }
 
 
+#the_born #contents02 .container .col_9 img {
+  width: 90%;
+  display: block;
+  outline: 1px solid red;
+}
+#the_born #contents03 {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding-bottom: 80px;
+}
+#the_born #contents03 .container .col_4 img {
+  width: 50%;
+  outline: 1px solid red;
+}
 
+
+#the_born #contents03 .container .col_4 h3 {
+  padding-top: 20px;
+  text-align: center;
+}
 
 }

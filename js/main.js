@@ -11,6 +11,7 @@ $(function(){
     // all
     $('#pf-all').on('click', function(){
       $('#portfolio .list li').show(dutation);
+      return false; // 클릭시 a태그 작동 금지
     })
   
     // web
@@ -19,6 +20,7 @@ $(function(){
         .hide(dutation)
         .filter('.web')
         .show(dutation);
+        return false; // 클릭시 a태그 작동 금지
     })
   
     // mobile
@@ -27,6 +29,7 @@ $(function(){
         .hide(dutation)
         .filter('.mobile')
         .show(dutation);
+        return false; // 클릭시 a태그 작동 금지
     })
   
     // graphic
@@ -35,6 +38,7 @@ $(function(){
         .hide(dutation)
         .filter('.graphic')
         .show(dutation);
+        return false; // 클릭시 a태그 작동 금지
     })
   
   });
@@ -63,4 +67,8 @@ $(function(){
       $('#portfolio_main #main_header p')
       .text('GRAPHIC');
     })
+  });
+
+  $(function(){
+    
   });
